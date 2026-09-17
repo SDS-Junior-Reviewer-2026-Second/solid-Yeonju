@@ -12,7 +12,7 @@ public class PenguinTest {
         assertEquals(4, penguin.numberOfFeathers);
     }
 
-
+    // testItCanBird 안해도 됨(fly() 없음)
     @Test
     public void testItCanSwim() {
         Penguin penguin = new Penguin(5);
